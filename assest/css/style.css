@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 5vh;
+    font-size: 23px;
+    padding-left: 30px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.nav:hover{
+    background-color: rgb(110, 108, 108);
+}
+.nav a:hover{
+    background-color: rgb(110, 108, 108);
+    color: black;
+    padding: 7px 12px;
+}
+.search{
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 540px;
+}
+.search:hover{
+    background-color: red;
+}
+.search a:hover{
+    padding: 7px 15px;
+    background-color: red;
+}
+.festivals{
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 650px;
+    color: white;
+    font-size: 20px;
+}
+.festivals h3{
+    margin: 10px 0;
+}
+.about{
+    margin: 0 350px;
+    text-align: center;
+}
+.head{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.head h2{
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+.head em{
+    opacity: 0.5;
+}
+.head p{
+    text-align: justify;
+    padding-top: 25px;
+}
+.banda{
+    padding: 30px;
+    display: flex;
+}
+.banda img{
+    width: 85%;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 20px;
+}
+.tours{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    height: 100vh;
+    padding-top: 60px;
+}
+.dates{
+    color: white;
+    text-align: center;
+}
+.dates h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight:lighter;
+    letter-spacing: 5px;
+}
+.dates em{
+    opacity: 0.5;
+}
+.month{
+    margin: 0 350px;
+}
+.month ul{
+    padding-top: 25px;
+}
+.month ul li{
+    background-color: white;
+    color:black;    
+    padding: 15px;
+
+}
+.month ul li span{
+    background-color: red;
+    align-items: center;
+    color: white;
+}
+.month ul li p{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    float: right;
+    padding: 0 6px;
+}
+.country{
+    color: white;
+    display: flex;
+}
+.newyork{
+    padding: 10px 0 0 350px;
+}
+.nyimg img{
+    width: 250px;
+    height: 200px;
+}
+.ny{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+
+}
+.nydate{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+}
+.newyork p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.nyinfo{
+    padding:0 0 0 12px;
+    background-color: white;
+    color: black;
+    width: 250px;
+}
+.nyinfo button{
+    margin: 0 0  15px 0;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+.nyinfo button a{
+    text-decoration: none;
+    color: white;
+
+}
+.nyinfo button:hover{
+    background-color: rgb(93, 96, 96);
+}
+.nyinfo button a:hover{
+    color: black;
+}
+.paris{
+    padding: 10px 0 0 35px;
+}
+.pimg img{
+    width: 250px;
+    height: 200px;
+}
+.p{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+
+}
+.pdate{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+}
+.paris p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.pinfo{
+    padding:0 0 0 12px;
+    background-color: white;
+    color: black;
+    width: 250px;
+}
+.pinfo button{
+    margin: 0 0  15px 0;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+.pinfo button a{
+    text-decoration: none;
+    color: white;
+
+}
+.pinfo button:hover{
+    background-color: rgb(93, 96, 96);
+}
+.pinfo button a:hover{
+    color: black;
+}
+.san-fransisco{
+    padding: 10px 0 0 35px;
+}
+.sfimg img{
+    width: 250px;
+    height: 200px;
+}
+.sf{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+
+}
+.sfdate{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding:0 0 0 12px;
+}
+.san-fransisco p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.sfinfo{
+    padding:0 0 0 12px;
+    background-color: white;
+    color: black;
+    width: 250px;
+}
+.sfinfo button{
+    margin: 0 0  15px 0;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+.sfinfo button a{
+    text-decoration: none;
+    color: white;
+
+}
+.sfinfo button:hover{
+    background-color: rgb(93, 96, 96);
+}
+.sfinfo button a:hover{
+    color: black;
+}
+.contact{
+    height: 50vh;
+    padding: 60px 350px 0 350px ;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight:lighter;    
+}
+.header em{
+    opacity: 0.5;
+}
+.phone{
+    float: left;
+    padding: 25px 0 0 0;
+}
+.phone span{
+    padding-left:12px;
+}
+.location{
+    margin: 8px 0;
+}
+.email{
+    margin: 8px 0;   
+}
+.forum{
+    padding: 25px 0 0 0;
+    padding-left: 400px;
+}
+.forum input{
+    padding: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+.name input{
+    width: 47%;
+}
+.phone input{
+    width: 48%;
+}
+.message input{
+    width: 94%;
+}
+.forum button{
+    float: right;
+    margin-right: 27px;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+.forum button a{
+    text-decoration: none;
+    color: white;
+}
+.forum button:hover{
+    background-color: rgb(93, 96, 96);
+}
+.forum button a:hover{
+    color: black;
+}
+.city img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.icons{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    padding: 0 0 0  600px;
+    gap: 8px;
+    align-items: center;
+
+
+}
+
